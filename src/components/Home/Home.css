@@ -1,0 +1,18 @@
+.home-container {
+  height: 50dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 100px;
+
+  .gamers-img {
+    width: 65%;
+  }
+
+  .banner-img {
+    width: 60%;
+    margin-top: -80px;
+  }
+}

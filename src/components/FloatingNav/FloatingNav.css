@@ -1,0 +1,66 @@
+.floating-nav-container {
+  width: 345px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  right: -300px;
+  top: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+
+  .social-icon {
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .social-icon-item {
+    font-size: 1.3rem;
+    color: var(--social-2);
+    margin: 0 7px;
+    margin-top: 5px;
+  }
+
+  p {
+    color: var(--social-2);
+  }
+}
+
+.floating-nav-2-container {
+  width: 190px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  right: -145px;
+  top: 4.3rem;
+  cursor: pointer;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+
+  .social-icon-2 {
+    font-size: 1.5rem;
+    margin-right: 7px;
+    color: var(--social-1);
+  }
+
+  .social-icon-2-item {
+    font-size: 1.3rem;
+    color: var(--social-1);
+    margin: 0 7px;
+    margin-top: 5px;
+  }
+
+  .social-icon-img {
+    height: 30px;
+    color: var(--social-1);
+    margin: 0 7px;
+  }
+}
