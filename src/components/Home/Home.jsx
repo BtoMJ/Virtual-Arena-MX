@@ -1,5 +1,5 @@
-import gamers from "../../assets/iniciobackgnd.png";
-import banner from "../../assets/welcomtxtstart.png";
+import gamers from "../../assets/home/iniciobackgnd.png";
+import banner from "../../assets/home/welcomtxtstart.png";
 import "./Home.css";
 
 function Home() {

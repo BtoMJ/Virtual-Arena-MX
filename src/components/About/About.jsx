@@ -1,5 +1,7 @@
 import girl from "../../assets/about/BELactionactor.png";
 import bg from "../../assets/home/logobackpattern.png";
+import splashLeft from "../../assets/home/splashpatternleft.png";
+import splashRigth from "../../assets/home/splashpatternrigth.png";
 import "./About.css";
 
 function About() {
@@ -36,6 +38,8 @@ function About() {
         </p>
       </div>
       <div className="about-image">
+        <img className="splash-left" src={splashLeft} alt="Splash Left" />
+        <img className="splash-right" src={splashRigth} alt="Splash Right" />
         <img src={girl} alt="About Us" />
         <img className="about-bg" src={bg} alt="Background Pattern" />
       </div>

@@ -41,6 +41,23 @@
     justify-content: center;
     padding: 1rem;
 
+    .splash-left {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      left: -100px;
+      top: 130px;
+    }
+
+    .splash-right {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      left: 340px;
+      top: 140px;
+      z-index: -1;
+    }
+
     img {
       width: 55%;
       height: 95%;
